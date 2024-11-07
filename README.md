@@ -1,4 +1,4 @@
-# flutter_blocin_arabic
+# rick_morty_charachters_using_bloc
 
 A new Flutter project.
 

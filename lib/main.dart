@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_blocin_arabic/app_router.dart';
+import 'package:rick_morty_characters_using_bloc/app_router.dart';
 
 void main() {
   runApp(const MyApp());

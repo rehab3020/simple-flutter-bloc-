@@ -1,6 +1,7 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_blocin_arabic/constants/strings.dart';
-import 'package:flutter_blocin_arabic/data/model/character_model.dart';
+import 'package:rick_morty_characters_using_bloc/constants/strings.dart';
+import 'package:rick_morty_characters_using_bloc/data/model/character_model.dart';
+
 
 class GetCharacterRepo {
   late final Dio dio;

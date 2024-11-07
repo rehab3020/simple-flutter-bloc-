@@ -123,10 +123,10 @@ class Result {
       };
 }
 
-enum Gender { female, male, unKnow }
+enum Gender { Female, Male, Unknow }
 
 final genderValues = EnumValues(
-    {"Female": Gender.female, "Male": Gender.male, "unknown": Gender.unKnow});
+    {"Female": Gender.Female, "Male": Gender.Male, "unknown": Gender.Unknow});
 
 class Location {
   String name;
@@ -153,15 +153,15 @@ class Location {
       };
 }
 
-enum Species { ALIEN, HUMAN }
+enum Species { Alien, Human }
 
 final speciesValues =
-    EnumValues({"Alien": Species.ALIEN, "Human": Species.HUMAN});
+    EnumValues({"Alien": Species.Alien, "Human": Species.Human});
 
-enum Status { ALIVE, DEAD, UNKNOWN }
+enum Status { Alive, Dead, Unknow }
 
 final statusValues = EnumValues(
-    {"Alive": Status.ALIVE, "Dead": Status.DEAD, "unknown": Status.UNKNOWN});
+    {"Alive": Status.Alive, "Dead": Status.Dead, "unknown": Status.Unknow});
 
 class EnumValues<T> {
   Map<String, T> map;

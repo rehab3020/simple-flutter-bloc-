@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_blocin_arabic/business_logic/characters_cubit.dart';
-import 'package:flutter_blocin_arabic/constants/app_colors.dart';
-import 'package:flutter_blocin_arabic/data/model/character_model.dart';
-import 'package:flutter_blocin_arabic/presentation/widgets/character_item.dart';
+import 'package:rick_morty_characters_using_bloc/business_logic/characters_cubit.dart';
+import 'package:rick_morty_characters_using_bloc/constants/app_colors.dart';
+import 'package:rick_morty_characters_using_bloc/data/model/character_model.dart';
+import 'package:rick_morty_characters_using_bloc/presentation/widgets/character_item.dart';
+
 
 class CharactersScreen extends StatelessWidget {
   CharactersScreen({super.key});
@@ -36,7 +37,7 @@ class CharactersScreen extends StatelessWidget {
       title: cubit.isSearched
           ? _buildSearchField(context)
           : const Text(
-              'Characters',
+              'Rick and Morty Characters',
               style: TextStyle(color: AppColors.grayColor),
             ),
       actions: _buildAppBarActions(context, cubit),

@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_blocin_arabic/data/model/character_model.dart';
-import 'package:flutter_blocin_arabic/data/repo/get_character_data.dart';
 import 'package:meta/meta.dart';
+import 'package:rick_morty_characters_using_bloc/data/model/character_model.dart';
+import 'package:rick_morty_characters_using_bloc/data/repo/get_character_data.dart';
 
 part 'characters_state.dart';
 
